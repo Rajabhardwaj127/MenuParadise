@@ -20,19 +20,23 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
         }
+        #logo{
+            width: 30%;
+        }
+        .test{
+            padding-top: 3%;
+        }
         .testing{
             background-color: black;
-            color : lime;
-            font-size: 75px;
-            padding-left: 15%;
+            color : rgb(169, 123, 6);
+            font-size: 65px;
             font-family: p5r;
         /* height: 200px; */
             border-radius: 10px;
             display: flex;
             word-wrap: normal;
             /* align-content: center; */
-            /* flex-direction:row; */
-            /* justify-content:center; */
+            justify-content:center;
     }
         @font-face {
         font-family: p5r;
@@ -44,7 +48,12 @@
 <body>
     <div class = "container">
         <h1>Welcome to The MenuParadise!</h1>
-        <div class="testing">MENU PARADISE</div>
+        <div class="testing">
+            <img id = "logo" src = "images/favicon.ico">
+            <div class = "test">
+                MENU PARADISE
+            </div>
+        </div>
         <hr>
         <p>This page will be updated in due time. Please stay tuned!</p>
     </div>
