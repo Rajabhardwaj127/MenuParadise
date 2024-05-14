@@ -24,14 +24,18 @@
             width: 30%;
         }
         .test{
-            padding-top: 3%;
+            padding-top: 5%;
+            padding-left: 5%;
             justify-content:center;
         }
         .testing{
             display: flex;
             background-color: black;
             color : rgb(169, 123, 6);
-            font-size: 10vh;
+            @media screen and (max-width: 800px) {
+                font-size: 7.5vw;
+            }
+            font-size: 80px;
             font-family: p5r;
             /* height: 200px; */
             border-radius: 15px;
@@ -46,7 +50,7 @@
 </head>
 <body>
     <div class = "container">
-        <h1>Welcome to The MenuParadise!</h1>
+        <center><h1>Welcome to the</h1></center>
         <div class="testing">
             <img id = "logo" src = "images/favicon.ico">
             <div class = "test">
