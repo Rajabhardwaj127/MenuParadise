@@ -60,5 +60,15 @@
           font-family: Zen Maru Gothic;
           font-weight: bold;
       }
+      #signup-button
+      {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 4px 4px;
+        margin: 0px 4px;
+        text-decoration: none;
+        color: goldenrod;
+        background-color: black;
+    }
 
       
